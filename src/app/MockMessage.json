@@ -1,0 +1,54 @@
+{
+  "id": "mock-ai-message-001",
+  "role": "ai",
+  "content": [
+    {
+      "type": "text",
+      "text": "This is a sample response to user input of: Show me sales performance by location for this quarter."
+    },
+    {
+      "type": "text",
+      "text": "This is a sample answer from the assistant based on the provided request."
+    },
+    {
+      "type": "graph",
+      "title": "Sales Performance Chart",
+      "chartData": {
+        "data": [
+          {
+            "type": "bar",
+            "x": [
+              "021 CENTRAL",
+              "703 RALPHS",
+              "701 FRED MEYER",
+              "402 KROGER ATL",
+              "620 FOOD 4 LESS",
+              "example",
+              "example2"
+            ],
+            "y": [10, 25, 15, 5, 20, 30, 45],
+            "marker": {
+              "color": "#10B981"
+            }
+          }
+        ],
+        "layout": {
+          "xaxis": {
+            "title": {
+              "text": "Locations"
+            }
+          },
+          "yaxis": {
+            "title": {
+              "text": "Sales Metrics"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "text": "This is a sample conclusion to the message."
+    }
+  ]
+}
