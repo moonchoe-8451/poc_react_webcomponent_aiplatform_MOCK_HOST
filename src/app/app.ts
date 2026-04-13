@@ -19,11 +19,6 @@ export class App implements AfterViewInit {
   isLoggedIn = true;
 
   models = ['Claude-4.6', 'GPT-5.4', 'Gemini-2.5'];
-  // apiEndpoint = {
-  //   id: '1',
-  //   role: 'ai',
-  //   content: [{ type: 'text', text: 'Mock response from Angular' }],
-  // };
   apiEndpoint = mockMessage;
 
   @ViewChild('chatbox', { static: false }) chatboxRef!: ElementRef;
